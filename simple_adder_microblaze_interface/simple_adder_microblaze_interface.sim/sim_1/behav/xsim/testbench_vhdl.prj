@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../simple_adder_microblaze_interface.ip_user_files/bd/design_101/ip/design_101_microblaze_0_0/sim/design_101_microblaze_0_0.vhd" \
+"../../../../simple_adder_microblaze_interface.ip_user_files/bd/design_101/ip/design_101_dlmb_v10_0/sim/design_101_dlmb_v10_0.vhd" \
+"../../../../simple_adder_microblaze_interface.ip_user_files/bd/design_101/ip/design_101_ilmb_v10_0/sim/design_101_ilmb_v10_0.vhd" \
+"../../../../simple_adder_microblaze_interface.ip_user_files/bd/design_101/ip/design_101_dlmb_bram_if_cntlr_0/sim/design_101_dlmb_bram_if_cntlr_0.vhd" \
+"../../../../simple_adder_microblaze_interface.ip_user_files/bd/design_101/ip/design_101_ilmb_bram_if_cntlr_0/sim/design_101_ilmb_bram_if_cntlr_0.vhd" \
+"../../../../simple_adder_microblaze_interface.ip_user_files/bd/design_101/ip/design_101_mdm_1_0/sim/design_101_mdm_1_0.vhd" \
+"../../../../simple_adder_microblaze_interface.ip_user_files/bd/design_101/ip/design_101_rst_clk_wiz_1_100M_0/sim/design_101_rst_clk_wiz_1_100M_0.vhd" \
+"../../../../simple_adder_microblaze_interface.ip_user_files/bd/design_101/ip/design_101_axi_bram_ctrl_0_0/sim/design_101_axi_bram_ctrl_0_0.vhd" \
+"../../../../simple_adder_microblaze_interface.ip_user_files/bd/design_101/ip/design_101_axi_uartlite_0_0/sim/design_101_axi_uartlite_0_0.vhd" \
+"../../../../simple_adder_microblaze_interface.srcs/sim_1/new/my_testbench.vhd" \
+
+# Do not sort compile order
+nosort

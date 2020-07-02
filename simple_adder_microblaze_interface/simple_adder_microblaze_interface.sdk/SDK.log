@@ -1,0 +1,6 @@
+20:18:08 INFO  : Registering command handlers for SDK TCF services
+20:18:09 INFO  : Launching XSCT server: xsct.bat -interactive C:\demo\simple_adder_microblaze_interface\simple_adder_microblaze_interface\simple_adder_microblaze_interface.sdk\temp_xsdb_launch_script.tcl
+20:18:11 INFO  : XSCT server has started successfully.
+20:18:11 INFO  : Successfully done setting XSCT server connection channel  
+20:18:11 INFO  : Successfully done setting SDK workspace  
+20:18:11 INFO  : Processing command line option -hwspec C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper.hdf.

@@ -1,0 +1,479 @@
+
+*** Running vivado
+    with args -log design_101_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_101_wrapper.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source design_101_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/demo/simple_adder_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.cache/ip 
+Command: synth_design -top design_101_wrapper -part xczu7ev-ffvc1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9952 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 420.520 ; gain = 102.836
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_101_wrapper' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/imports/hdl/design_101_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'design_101' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_101_axi_bram_ctrl_0_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_axi_bram_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_axi_bram_ctrl_0_0' (1#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_axi_bram_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_101_axi_bram_ctrl_0_bram_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_axi_bram_ctrl_0_bram_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_axi_bram_ctrl_0_bram_0' (2#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_axi_bram_ctrl_0_bram_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'axi_bram_ctrl_0_bram' of module 'design_101_axi_bram_ctrl_0_bram_0' requires 16 connections, but only 14 given [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:216]
+INFO: [Synth 8-6157] synthesizing module 'design_101_axi_mem_intercon_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:475]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_VPD30Q' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:1143]
+INFO: [Synth 8-6157] synthesizing module 'design_101_auto_pc_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_auto_pc_0' (3#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_auto_pc_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'auto_pc' of module 'design_101_auto_pc_0' requires 56 connections, but only 52 given [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:1358]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_VPD30Q' (4#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:1143]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_6F6G98' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:1413]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_6F6G98' (5#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:1413]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_1F7G5JA' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:1559]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_1F7G5JA' (6#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:1559]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_4G339N' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:1925]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_4G339N' (7#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:1925]
+INFO: [Synth 8-6157] synthesizing module 'design_101_xbar_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_xbar_0' (8#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_xbar_0_stub.v:6]
+WARNING: [Synth 8-689] width (6) of port connection 'm_axi_arprot' does not match port width (9) of module 'design_101_xbar_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:1104]
+WARNING: [Synth 8-689] width (6) of port connection 'm_axi_awprot' does not match port width (9) of module 'design_101_xbar_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:1108]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_axi_mem_intercon_0' (9#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:475]
+INFO: [Synth 8-6157] synthesizing module 'design_101_axi_uartlite_0_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_axi_uartlite_0_0' (10#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_axi_uartlite_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'axi_uartlite_0' of module 'design_101_axi_uartlite_0_0' requires 22 connections, but only 21 given [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:328]
+INFO: [Synth 8-6157] synthesizing module 'design_101_clk_wiz_1_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_clk_wiz_1_0' (11#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'design_101_mdm_1_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_mdm_1_0' (12#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_101_microblaze_0_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_microblaze_0_0' (13#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_microblaze_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'microblaze_0' of module 'design_101_microblaze_0_0' requires 52 connections, but only 51 given [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:368]
+INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_1YCKF53' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:1691]
+INFO: [Synth 8-6157] synthesizing module 'design_101_dlmb_bram_if_cntlr_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_dlmb_bram_if_cntlr_0' (14#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_101_dlmb_v10_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_dlmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_dlmb_v10_0' (15#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_dlmb_v10_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'dlmb_v10' of module 'design_101_dlmb_v10_0' requires 25 connections, but only 24 given [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:1837]
+INFO: [Synth 8-6157] synthesizing module 'design_101_ilmb_bram_if_cntlr_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_ilmb_bram_if_cntlr_0' (16#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_101_ilmb_v10_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_ilmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_ilmb_v10_0' (17#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_ilmb_v10_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'ilmb_v10' of module 'design_101_ilmb_v10_0' requires 25 connections, but only 24 given [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:1883]
+INFO: [Synth 8-6157] synthesizing module 'design_101_lmb_bram_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_lmb_bram_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_lmb_bram_0' (18#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_lmb_bram_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'lmb_bram' of module 'design_101_lmb_bram_0' requires 16 connections, but only 14 given [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:1908]
+INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_1YCKF53' (19#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:1691]
+INFO: [Synth 8-6157] synthesizing module 'design_101_myip_simple_adder_v1_0_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_myip_simple_adder_v1_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_myip_simple_adder_v1_0_0' (20#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_myip_simple_adder_v1_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_101_rst_clk_wiz_1_100M_0' [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_rst_clk_wiz_1_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_rst_clk_wiz_1_100M_0' (21#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/.Xil/Vivado-12508-ANURAGCHOUDAFBF/realtime/design_101_rst_clk_wiz_1_100M_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'rst_clk_wiz_1_100M' of module 'design_101_rst_clk_wiz_1_100M_0' requires 10 connections, but only 8 given [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:464]
+INFO: [Synth 8-6155] done synthesizing module 'design_101' (22#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/synth/design_101.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_101_wrapper' (23#1) [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/imports/hdl/design_101_wrapper.v:12]
+WARNING: [Synth 8-3331] design s00_couplers_imp_4G339N has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_4G339N has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design s00_couplers_imp_4G339N has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_4G339N has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m02_couplers_imp_1F7G5JA has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m02_couplers_imp_1F7G5JA has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m02_couplers_imp_1F7G5JA has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m02_couplers_imp_1F7G5JA has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_6F6G98 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_6F6G98 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_6F6G98 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_6F6G98 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[31]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[30]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[29]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[28]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[27]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[26]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[25]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[24]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[23]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[22]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[21]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[20]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[19]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[18]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[17]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[16]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[15]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[14]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_araddr[13]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[31]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[30]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[29]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[28]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[27]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[26]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[25]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[24]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[23]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[22]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[21]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[20]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[19]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[18]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[17]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[16]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[15]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[14]
+WARNING: [Synth 8-3331] design m00_couplers_imp_VPD30Q has unconnected port S_AXI_awaddr[13]
+WARNING: [Synth 8-3331] design design_101_axi_mem_intercon_0 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design design_101_axi_mem_intercon_0 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design design_101_axi_mem_intercon_0 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design design_101_axi_mem_intercon_0 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design design_101_axi_mem_intercon_0 has unconnected port M02_ACLK
+WARNING: [Synth 8-3331] design design_101_axi_mem_intercon_0 has unconnected port M02_ARESETN
+WARNING: [Synth 8-3331] design design_101_axi_mem_intercon_0 has unconnected port S00_ACLK
+WARNING: [Synth 8-3331] design design_101_axi_mem_intercon_0 has unconnected port S00_ARESETN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 477.219 ; gain = 159.535
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 477.219 ; gain = 159.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 477.219 ; gain = 159.535
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_microblaze_0_0/design_101_microblaze_0_0/design_101_microblaze_0_0_in_context.xdc] for cell 'design_101_i/microblaze_0'
+Finished Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_microblaze_0_0/design_101_microblaze_0_0/design_101_microblaze_0_0_in_context.xdc] for cell 'design_101_i/microblaze_0'
+Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_dlmb_v10_0/design_101_dlmb_v10_0/design_101_ilmb_v10_0_in_context.xdc] for cell 'design_101_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_dlmb_v10_0/design_101_dlmb_v10_0/design_101_ilmb_v10_0_in_context.xdc] for cell 'design_101_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_ilmb_v10_0/design_101_ilmb_v10_0/design_101_ilmb_v10_0_in_context.xdc] for cell 'design_101_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_ilmb_v10_0/design_101_ilmb_v10_0/design_101_ilmb_v10_0_in_context.xdc] for cell 'design_101_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_dlmb_bram_if_cntlr_0/design_101_dlmb_bram_if_cntlr_0/design_101_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_101_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_dlmb_bram_if_cntlr_0/design_101_dlmb_bram_if_cntlr_0/design_101_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_101_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_ilmb_bram_if_cntlr_0/design_101_ilmb_bram_if_cntlr_0/design_101_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_101_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_ilmb_bram_if_cntlr_0/design_101_ilmb_bram_if_cntlr_0/design_101_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'design_101_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_lmb_bram_0/design_101_lmb_bram_0/design_101_lmb_bram_0_in_context.xdc] for cell 'design_101_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_lmb_bram_0/design_101_lmb_bram_0/design_101_lmb_bram_0_in_context.xdc] for cell 'design_101_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_mdm_1_0/design_101_mdm_1_0/design_101_mdm_1_0_in_context.xdc] for cell 'design_101_i/mdm_1'
+Finished Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_mdm_1_0/design_101_mdm_1_0/design_101_mdm_1_0_in_context.xdc] for cell 'design_101_i/mdm_1'
+Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_clk_wiz_1_0/design_101_clk_wiz_1_0/design_101_clk_wiz_1_0_in_context.xdc] for cell 'design_101_i/clk_wiz_1'
+Finished Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_clk_wiz_1_0/design_101_clk_wiz_1_0/design_101_clk_wiz_1_0_in_context.xdc] for cell 'design_101_i/clk_wiz_1'
+Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_rst_clk_wiz_1_100M_0/design_101_rst_clk_wiz_1_100M_0/design_101_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'design_101_i/rst_clk_wiz_1_100M'
+Finished Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_rst_clk_wiz_1_100M_0/design_101_rst_clk_wiz_1_100M_0/design_101_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'design_101_i/rst_clk_wiz_1_100M'
+Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_axi_bram_ctrl_0_0/design_101_axi_bram_ctrl_0_0/design_101_axi_bram_ctrl_0_0_in_context.xdc] for cell 'design_101_i/axi_bram_ctrl_0'
+Finished Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_axi_bram_ctrl_0_0/design_101_axi_bram_ctrl_0_0/design_101_axi_bram_ctrl_0_0_in_context.xdc] for cell 'design_101_i/axi_bram_ctrl_0'
+Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_xbar_0/design_101_xbar_0/design_101_xbar_0_in_context.xdc] for cell 'design_101_i/axi_mem_intercon/xbar'
+Finished Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_xbar_0/design_101_xbar_0/design_101_xbar_0_in_context.xdc] for cell 'design_101_i/axi_mem_intercon/xbar'
+Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_auto_pc_0/design_101_auto_pc_0/design_101_auto_pc_0_in_context.xdc] for cell 'design_101_i/axi_mem_intercon/m00_couplers/auto_pc'
+Finished Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_auto_pc_0/design_101_auto_pc_0/design_101_auto_pc_0_in_context.xdc] for cell 'design_101_i/axi_mem_intercon/m00_couplers/auto_pc'
+Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_axi_bram_ctrl_0_bram_0/design_101_axi_bram_ctrl_0_bram_0/design_101_axi_bram_ctrl_0_bram_0_in_context.xdc] for cell 'design_101_i/axi_bram_ctrl_0_bram'
+Finished Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_axi_bram_ctrl_0_bram_0/design_101_axi_bram_ctrl_0_bram_0/design_101_axi_bram_ctrl_0_bram_0_in_context.xdc] for cell 'design_101_i/axi_bram_ctrl_0_bram'
+Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_myip_simple_adder_v1_0_0/design_101_myip_simple_adder_v1_0_0/design_101_myip_simple_adder_v1_0_0_in_context.xdc] for cell 'design_101_i/myip_simple_adder_v1_0'
+Finished Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_myip_simple_adder_v1_0_0/design_101_myip_simple_adder_v1_0_0/design_101_myip_simple_adder_v1_0_0_in_context.xdc] for cell 'design_101_i/myip_simple_adder_v1_0'
+Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_axi_uartlite_0_0/design_101_axi_uartlite_0_0/design_101_axi_uartlite_0_0_in_context.xdc] for cell 'design_101_i/axi_uartlite_0'
+Finished Parsing XDC File [c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_axi_uartlite_0_0/design_101_axi_uartlite_0_0/design_101_axi_uartlite_0_0_in_context.xdc] for cell 'design_101_i/axi_uartlite_0'
+Parsing XDC File [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1570.348 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1570.348 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.055 . Memory (MB): peak = 1570.348 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'design_101_i/axi_bram_ctrl_0_bram' at clock pin 'clka' is different from the actual clock period '5.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'design_101_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '5.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1570.348 ; gain = 1252.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1570.348 ; gain = 1252.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_in1_0. (constraint file  c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_clk_wiz_1_0/design_101_clk_wiz_1_0/design_101_clk_wiz_1_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_in1_0. (constraint file  c:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sources_1/bd/design_101/ip/design_101_clk_wiz_1_0/design_101_clk_wiz_1_0/design_101_clk_wiz_1_0_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for design_101_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_101_i/microblaze_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_101_i/microblaze_0_local_memory/dlmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_101_i/microblaze_0_local_memory/ilmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_101_i/microblaze_0_local_memory/dlmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_101_i/microblaze_0_local_memory/ilmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_101_i/microblaze_0_local_memory/lmb_bram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_101_i/mdm_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_101_i/clk_wiz_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_101_i/rst_clk_wiz_1_100M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_101_i/axi_bram_ctrl_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_101_i/axi_mem_intercon/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_101_i/axi_mem_intercon/m00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_101_i/axi_mem_intercon. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_101_i/axi_bram_ctrl_0_bram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_101_i/myip_simple_adder_v1_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_101_i/axi_uartlite_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1570.348 ; gain = 1252.664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1570.348 ; gain = 1252.664
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design design_101_axi_mem_intercon_0 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design design_101_axi_mem_intercon_0 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design design_101_axi_mem_intercon_0 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design design_101_axi_mem_intercon_0 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design design_101_axi_mem_intercon_0 has unconnected port M02_ACLK
+WARNING: [Synth 8-3331] design design_101_axi_mem_intercon_0 has unconnected port M02_ARESETN
+WARNING: [Synth 8-3331] design design_101_axi_mem_intercon_0 has unconnected port S00_ACLK
+WARNING: [Synth 8-3331] design design_101_axi_mem_intercon_0 has unconnected port S00_ARESETN
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1570.348 ; gain = 1252.664
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_101_i/microblaze_0_local_memory/dlmb_bram_if_cntlr/BRAM_Clk_A' to pin 'design_101_i/microblaze_0_local_memory/dlmb_bram_if_cntlr/bbstub_BRAM_Clk_A/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_101_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/BRAM_Clk_A' to pin 'design_101_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/bbstub_BRAM_Clk_A/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_101_i/mdm_1/Dbg_Clk_0' to pin 'design_101_i/mdm_1/bbstub_Dbg_Clk_0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_101_i/mdm_1/Dbg_Update_0' to pin 'design_101_i/mdm_1/bbstub_Dbg_Update_0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_101_i/clk_wiz_1/clk_out1' to pin 'design_101_i/clk_wiz_1/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_101_i/axi_bram_ctrl_0/bram_clk_a' to pin 'design_101_i/axi_bram_ctrl_0/bbstub_bram_clk_a/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'design_101_i/axi_bram_ctrl_0/bram_clk_b' to pin 'design_101_i/axi_bram_ctrl_0/bbstub_bram_clk_b/O'
+INFO: [Synth 8-5819] Moved 7 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 1983.289 ; gain = 1665.605
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 1983.438 ; gain = 1665.754
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 1993.945 ; gain = 1676.262
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1993.945 ; gain = 1676.262
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1993.945 ; gain = 1676.262
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1993.945 ; gain = 1676.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1993.945 ; gain = 1676.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1993.945 ; gain = 1676.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1993.945 ; gain = 1676.262
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------------+----------+
+|      |BlackBox name                       |Instances |
++------+------------------------------------+----------+
+|1     |design_101_xbar_0                   |         1|
+|2     |design_101_auto_pc_0                |         1|
+|3     |design_101_axi_bram_ctrl_0_0        |         1|
+|4     |design_101_axi_bram_ctrl_0_bram_0   |         1|
+|5     |design_101_axi_uartlite_0_0         |         1|
+|6     |design_101_clk_wiz_1_0              |         1|
+|7     |design_101_mdm_1_0                  |         1|
+|8     |design_101_microblaze_0_0           |         1|
+|9     |design_101_myip_simple_adder_v1_0_0 |         1|
+|10    |design_101_rst_clk_wiz_1_100M_0     |         1|
+|11    |design_101_dlmb_bram_if_cntlr_0     |         1|
+|12    |design_101_dlmb_v10_0               |         1|
+|13    |design_101_ilmb_bram_if_cntlr_0     |         1|
+|14    |design_101_ilmb_v10_0               |         1|
+|15    |design_101_lmb_bram_0               |         1|
++------+------------------------------------+----------+
+
+Report Cell Usage: 
++------+------------------------------------+------+
+|      |Cell                                |Count |
++------+------------------------------------+------+
+|1     |design_101_auto_pc_0                |     1|
+|2     |design_101_axi_bram_ctrl_0_0        |     1|
+|3     |design_101_axi_bram_ctrl_0_bram_0   |     1|
+|4     |design_101_axi_uartlite_0_0         |     1|
+|5     |design_101_clk_wiz_1_0              |     1|
+|6     |design_101_dlmb_bram_if_cntlr_0     |     1|
+|7     |design_101_dlmb_v10_0               |     1|
+|8     |design_101_ilmb_bram_if_cntlr_0     |     1|
+|9     |design_101_ilmb_v10_0               |     1|
+|10    |design_101_lmb_bram_0               |     1|
+|11    |design_101_mdm_1_0                  |     1|
+|12    |design_101_microblaze_0_0           |     1|
+|13    |design_101_myip_simple_adder_v1_0_0 |     1|
+|14    |design_101_rst_clk_wiz_1_100M_0     |     1|
+|15    |design_101_xbar_0                   |     1|
+|16    |IBUF                                |     2|
+|17    |OBUF                                |     1|
++------+------------------------------------+------+
+
+Report Instance Areas: 
++------+------------------------------+--------------------------------------+------+
+|      |Instance                      |Module                                |Cells |
++------+------------------------------+--------------------------------------+------+
+|1     |top                           |                                      |  1578|
+|2     |  design_101_i                |design_101                            |  1575|
+|3     |    axi_mem_intercon          |design_101_axi_mem_intercon_0         |   541|
+|4     |      m00_couplers            |m00_couplers_imp_VPD30Q               |   167|
+|5     |    microblaze_0_local_memory |microblaze_0_local_memory_imp_1YCKF53 |   496|
++------+------------------------------+--------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1993.945 ; gain = 1676.262
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 1993.945 ; gain = 583.133
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1993.945 ; gain = 1676.262
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2031.191 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+69 Infos, 81 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:39 . Memory (MB): peak = 2031.191 ; gain = 1720.402
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2031.191 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1/design_101_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_101_wrapper_utilization_synth.rpt -pb design_101_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 30 20:16:53 2020...

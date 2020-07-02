@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_101_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="C:/Users/anuragchoudhury/Desktop/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/design_101_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_101_lmb_bram_0_synth_1" LaunchDir="C:/Users/anuragchoudhury/Desktop/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/design_101_lmb_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_101_mdm_1_0_synth_1" LaunchDir="C:/Users/anuragchoudhury/Desktop/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/design_101_mdm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_101_rst_clk_wiz_1_100M_0_synth_1" LaunchDir="C:/Users/anuragchoudhury/Desktop/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/design_101_rst_clk_wiz_1_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_101_clk_wiz_1_0_synth_1" LaunchDir="C:/Users/anuragchoudhury/Desktop/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/design_101_clk_wiz_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_101_ilmb_v10_0_synth_1" LaunchDir="C:/Users/anuragchoudhury/Desktop/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/design_101_ilmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_101_microblaze_0_0_synth_1" LaunchDir="C:/Users/anuragchoudhury/Desktop/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/design_101_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_101_dlmb_v10_0_synth_1" LaunchDir="C:/Users/anuragchoudhury/Desktop/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/design_101_dlmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_101_ilmb_v10_0_synth_1"/>
+	</Run>
+	<Run Id="design_101_xbar_0_synth_1" LaunchDir="C:/Users/anuragchoudhury/Desktop/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/design_101_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_101_axi_bram_ctrl_0_0_synth_1" LaunchDir="C:/Users/anuragchoudhury/Desktop/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/design_101_axi_bram_ctrl_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_101_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="C:/Users/anuragchoudhury/Desktop/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/design_101_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_101_axi_uartlite_0_0_synth_1" LaunchDir="C:/Users/anuragchoudhury/Desktop/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/design_101_axi_uartlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_101_myip_simple_adder_v1_0_0_synth_1" LaunchDir="C:/Users/anuragchoudhury/Desktop/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/design_101_myip_simple_adder_v1_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_101_axi_bram_ctrl_0_bram_0_synth_1" LaunchDir="C:/Users/anuragchoudhury/Desktop/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/design_101_axi_bram_ctrl_0_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_101_auto_pc_0_synth_1" LaunchDir="C:/Users/anuragchoudhury/Desktop/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/design_101_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="C:/Users/anuragchoudhury/Desktop/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_101_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="design_101_lmb_bram_0_synth_1"/>
+		<Parent Id="design_101_mdm_1_0_synth_1"/>
+		<Parent Id="design_101_rst_clk_wiz_1_100M_0_synth_1"/>
+		<Parent Id="design_101_clk_wiz_1_0_synth_1"/>
+		<Parent Id="design_101_ilmb_v10_0_synth_1"/>
+		<Parent Id="design_101_microblaze_0_0_synth_1"/>
+		<Parent Id="design_101_dlmb_v10_0_synth_1"/>
+		<Parent Id="design_101_xbar_0_synth_1"/>
+		<Parent Id="design_101_axi_bram_ctrl_0_0_synth_1"/>
+		<Parent Id="design_101_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="design_101_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="design_101_myip_simple_adder_v1_0_0_synth_1"/>
+		<Parent Id="design_101_axi_bram_ctrl_0_bram_0_synth_1"/>
+		<Parent Id="design_101_auto_pc_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

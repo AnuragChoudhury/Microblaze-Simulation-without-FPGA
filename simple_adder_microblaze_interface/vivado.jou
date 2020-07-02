@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jun 30 20:08:15 2020
+# Process ID: 10244
+# Current directory: C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5368 C:\demo\simple_adder_microblaze_interface\simple_adder_microblaze_interface\simple_adder_microblaze_interface.xpr
+# Log file: C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/vivado.log
+# Journal file: C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.xpr
+reset_run design_101_ilmb_bram_if_cntlr_0_synth_1
+reset_run design_101_rst_clk_wiz_1_100M_0_synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+update_compile_order -fileset sources_1
+file mkdir C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk
+write_hwdef -force  -file C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper.hdf
+launch_sdk -workspace C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk -hwspec C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper.hdf
+file mkdir C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sim_1/new/my_testbench.vhd w ]
+add_files -fileset sim_1 C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.srcs/sim_1/new/my_testbench.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+add_files -fileset sim_1 -norecurse C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test/Debug/sum_test.elf
+set_property SCOPED_TO_REF design_101 [get_files -all -of_objects [get_fileset sim_1] {C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test/Debug/sum_test.elf}]
+set_property SCOPED_TO_CELLS { microblaze_0 } [get_files -all -of_objects [get_fileset sim_1] {C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test/Debug/sum_test.elf}]
+launch_simulation
+source testbench.tcl
+run all
+close_sim

@@ -1,0 +1,1831 @@
+!SESSION 2020-06-30 20:17:58.856 -----------------------------------------------
+eclipse.buildId=2018.3
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk
+
+!ENTRY org.eclipse.ui 2 0 2020-06-30 20:18:01.550
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-06-30 20:18:01.550
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2020-06-30 20:18:02.707
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-06-30 20:18:02.707
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:11.121
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:11.128
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:11.140
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:11.149
+!MESSAGE XSCT Command: [setws C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk], Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:11.558
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:11.564
+!MESSAGE XSCT command with result: [setws C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk], Result: [null, ]. Thread: Thread-14
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:11.755
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:13.886
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:13.922
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:13.935
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "xczu7ev",
+"family": "zynquplus",
+"timestamp": "Tue Jun 30 20:04:22 2020",
+"vivado_version": "2018.3",
+"part": "xczu7ev-ffvc1156-2-e",
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:13.945
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:13.960
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, {"axi_bram_ctrl_0": {"hier_name": "axi_bram_ctrl_0",
+"type": "axi_bram_ctrl",
+"version": "4.1",
+"ip_type": "MEMORY_CNTLR",
+},
+"axi_bram_ctrl_0_bram": {"hier_name": "axi_bram_ctrl_0_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"axi_mem_intercon": {"hier_name": "axi_mem_intercon",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"myip_simple_adder_v1_0": {"hier_name": "myip_simple_adder_v1_0",
+"type": "myip_simple_adder_v1_0",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:14.111
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:14.126
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"myip_simple_adder_v1_0_s00_axi": {"name": "myip_simple_adder_v1_0",
+"base": "0x44A00000",
+"high": "0x44A0FFFF",
+"size": "65536",
+"slaveintf": "s00_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x0001FFFF",
+"size": "131072",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+"axi_bram_ctrl_0_S_AXI_Mem0": {"name": "axi_bram_ctrl_0",
+"base": "0xC0000000",
+"high": "0xC0001FFF",
+"size": "8192",
+"slaveintf": "S_AXI",
+"type": "MEMORY",
+"flags": "3",
+"segment": "Mem0",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:14.159
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf mdm_1], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:14.168
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:14.204
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:14.233
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"axi_bram_ctrl_0": {},
+"axi_uartlite_0": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+"myip_simple_adder_v1_0": {},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.007
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.025
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_2": {"name": "freertos10_xilinx",
+"version": "1.2",
+"desc": "FreeRTOS is a market leading open source RTOS",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_2",
+},
+"standalone_v6_8": {"name": "standalone",
+"version": "6.8",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/bsp/standalone_v6_8",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.053
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.062
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.076
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.085
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.093
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.102
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.111
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.120
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.128
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.137
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.155
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.164
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.171
+!MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.203
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
+"description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/ddr_self_refresh",
+"os": "standalone",
+},
+"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program.",
+"supp_proc": "microblaze ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "standalone",
+},
+"empty_application": {"userdefname": "Empty Application",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "standalone",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "standalone",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10 or IPv6 address FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "standalone",
+},
+"freertos_lwip_tcp_perf_client": {"userdefname": "FreeRTOS lwIP TCP Perf Client",
+"description": "The FreeRTOS LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address whenipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_client",
+"os": "standalone",
+},
+"freertos_lwip_tcp_perf_server": {"userdefname": "FreeRTOS lwIP TCP Perf Server",
+"description": "The FreeRTOS LwIP TCP Server application is used for creating TCP server using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection info and also display interim and average TCP statistics for data transfer. This application handles only 1 client connection at a time.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_server",
+"os": "standalone",
+},
+"freertos_lwip_udp_perf_client": {"userdefname": "FreeRTOS lwIP UDP Perf Client",
+"description": "The FreeRTOS LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_client",
+"os": "standalone",
+},
+"freertos_lwip_udp_perf_server": {"userdefname": "FreeRTOS lwIP UDP Perf Server",
+"description": "The FreeRTOS LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_server",
+"os": "standalone",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "standalone",
+},
+"libmetal_echo_demo": {"userdefname": "Libmetal AMP Demo",
+"description": "Libmetal AMP Application",
+"supp_proc": "psu_cortexr5",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/libmetal_echo_demo",
+"os": "standalone",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10 or IPv6 FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "standalone",
+},
+"lwip_tcp_perf_client": {"userdefname": "lwIP TCP Perf Client",
+"description": "The LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_client",
+"os": "standalone",
+},
+"lwip_tcp_perf_server": {"userdefname": "lwIP TCP Perf Server",
+"description": "The LwIP TCP Perf Server application is used for creating TCP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IPv4 address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection information with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_server",
+"os": "standalone",
+},
+"lwip_udp_perf_client": {"userdefname": "lwIP UDP Perf Client",
+"description": "The LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/lwip_udp_perf_client",
+"os": "standalone",
+},
+"lwip_udp_perf_server": {"userdefname": "lwIP UDP Perf Server",
+"description": "The LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/lwip_udp_perf_server",
+"os": "standalone",
+},
+"mba_fs_boot": {"userdefname": "mba_fs_boot",
+"description": "fs-boot for microblaze by Xilinx Inc..",
+"supp_proc": "",
+"supp_os": "",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/mba_fs_boot",
+"os": "standalone",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "standalone",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "standalone",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "standalone",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "standalone",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/peripheral_tests",
+"os": "standalone",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "standalone",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "standalone",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Update the serial_flash_family and serial_flash_interface in xilisf library in BSP settings!
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "standalone",
+},
+"xilkernel_thread_demo": {"userdefname": "Xilkernel POSIX Threads Demo",
+"description": "This Xilkernel based application provides a simple example of how to create multiple POSIX threads and synchronize with them when they are complete. This example creates an initial master thread. The master thread creates 4 worker threads that go off to compute parts of a sum and return the partial sum as the result. The master thread accumulates the partial sums and prints the result. This example can serve as your starting point for your end application thread structure.",
+"supp_proc": "microblaze",
+"supp_os": "xilkernel",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/xilkernel_thread_demo",
+"os": "standalone",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "standalone",
+},
+"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "standalone",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "standalone",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "standalone",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "standalone",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.215
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.239
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.247
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:28.263
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:33.377
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:33.386
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:33.586
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:33.595
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:33.949
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:33.957
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:34.409
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:34.418
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:35.023
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:35.035
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:35.132
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:35.141
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:35.417
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:35.426
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:36.593
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:36.602
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:37.471
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:37.479
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:37.606
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:37.615
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:37.856
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:37.864
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:38.077
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:38.084
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:44.322
+!MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:44.354
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
+"description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/ddr_self_refresh",
+"os": "standalone",
+},
+"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program.",
+"supp_proc": "microblaze ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "standalone",
+},
+"empty_application": {"userdefname": "Empty Application",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "standalone",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "standalone",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10 or IPv6 address FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "standalone",
+},
+"freertos_lwip_tcp_perf_client": {"userdefname": "FreeRTOS lwIP TCP Perf Client",
+"description": "The FreeRTOS LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address whenipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_client",
+"os": "standalone",
+},
+"freertos_lwip_tcp_perf_server": {"userdefname": "FreeRTOS lwIP TCP Perf Server",
+"description": "The FreeRTOS LwIP TCP Server application is used for creating TCP server using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection info and also display interim and average TCP statistics for data transfer. This application handles only 1 client connection at a time.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_server",
+"os": "standalone",
+},
+"freertos_lwip_udp_perf_client": {"userdefname": "FreeRTOS lwIP UDP Perf Client",
+"description": "The FreeRTOS LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_client",
+"os": "standalone",
+},
+"freertos_lwip_udp_perf_server": {"userdefname": "FreeRTOS lwIP UDP Perf Server",
+"description": "The FreeRTOS LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_server",
+"os": "standalone",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "standalone",
+},
+"libmetal_echo_demo": {"userdefname": "Libmetal AMP Demo",
+"description": "Libmetal AMP Application",
+"supp_proc": "psu_cortexr5",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/libmetal_echo_demo",
+"os": "standalone",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10 or IPv6 FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "standalone",
+},
+"lwip_tcp_perf_client": {"userdefname": "lwIP TCP Perf Client",
+"description": "The LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_client",
+"os": "standalone",
+},
+"lwip_tcp_perf_server": {"userdefname": "lwIP TCP Perf Server",
+"description": "The LwIP TCP Perf Server application is used for creating TCP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IPv4 address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection information with interim and average TCP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_server",
+"os": "standalone",
+},
+"lwip_udp_perf_client": {"userdefname": "lwIP UDP Perf Client",
+"description": "The LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/lwip_udp_perf_client",
+"os": "standalone",
+},
+"lwip_udp_perf_server": {"userdefname": "lwIP UDP Perf Server",
+"description": "The LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/lwip_udp_perf_server",
+"os": "standalone",
+},
+"mba_fs_boot": {"userdefname": "mba_fs_boot",
+"description": "fs-boot for microblaze by Xilinx Inc..",
+"supp_proc": "",
+"supp_os": "",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/mba_fs_boot",
+"os": "standalone",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "standalone",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "standalone",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "standalone",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "standalone",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze",
+"supp_os": "standalone xilkernel",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/peripheral_tests",
+"os": "standalone",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "standalone",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "standalone",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Update the serial_flash_family and serial_flash_interface in xilisf library in BSP settings!
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "standalone",
+},
+"xilkernel_thread_demo": {"userdefname": "Xilkernel POSIX Threads Demo",
+"description": "This Xilkernel based application provides a simple example of how to create multiple POSIX threads and synchronize with them when they are complete. This example creates an initial master thread. The master thread creates 4 worker threads that go off to compute parts of a sum and return the partial sum as the result. The master thread accumulates the partial sums and prints the result. This example can serve as your starting point for your end application thread structure.",
+"supp_proc": "microblaze",
+"supp_os": "xilkernel",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/xilkernel_thread_demo",
+"os": "standalone",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "standalone",
+},
+"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "standalone",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "standalone",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "standalone",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "standalone",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze",
+"supp_os": "linux",
+"path": "C:/Xilinx/SDK/2018.3/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:44.362
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app empty_application -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:44.378
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app empty_application -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:44.767
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:44.784
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:55.764
+!MESSAGE XSCT Command: [::hsi::utils::write_sw_mss -hw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf -sw sum_test_bsp -dir C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp -processor microblaze_0 -os standalone -app hello_world], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:55.787
+!MESSAGE XSCT command with result: [::hsi::utils::write_sw_mss -hw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf -sw sum_test_bsp -dir C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp -processor microblaze_0 -os standalone -app hello_world], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:56.038
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:56.047
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:56.054
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:56.064
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:56.071
+!MESSAGE XSCT Command: [::hsi::utils::generate_bsp_sources C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.135
+!MESSAGE XSCT command with result: [::hsi::utils::generate_bsp_sources C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.616
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.626
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.634
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.643
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.664
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.673
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, axi_bram_ctrl_0 axi_uartlite_0 microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr myip_simple_adder_v1_0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.681
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.692
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, {"axi_bram_ctrl_0": {"name": "bram",
+"ver": "4.2",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"myip_simple_adder_v1_0": {"name": "generic",
+"ver": "2.0",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.8",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.701
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.751
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, {"axi_bram_ctrl_0": {"version": "4.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_2": {"name": "bram",
+"version": "4.2",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_bram_ctrl_0_bram": {"version": "8.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"axi_mem_intercon": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"axi_uartlite_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"clk_wiz_1": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"clk_wiz_v1_2": {"name": "clk_wiz",
+"version": "1.2",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"mdm_1": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0": {"version": "11.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_v2_8": {"name": "cpu",
+"version": "2.8",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_2": {"name": "bram",
+"version": "4.2",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_2": {"name": "bram",
+"version": "4.2",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_lmb_bram": {"version": "8.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"myip_simple_adder_v1_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_clk_wiz_1_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2018.3/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.784
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.792
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.797
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.806
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.819
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.829
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.871
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:18:59.882
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.770
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_REORDER_INSTR], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.778
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_REORDER_INSTR], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.785
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.793
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.799
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_BARREL], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.806
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_BARREL], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.814
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_PCMP_INSTR], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.822
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_PCMP_INSTR], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.829
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_DIV], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.837
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_DIV], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.844
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_FPU], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.852
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_FPU], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.860
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_HW_MUL], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.869
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0 C_USE_HW_MUL], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.877
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0 C_AREA_OPTIMIZED], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.885
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf microblaze_0 C_AREA_OPTIMIZED], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.896
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.906
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.913
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.922
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.929
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.942
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, {"axi_bram_ctrl_0": {"name": "bram",
+"ver": "4.2",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"myip_simple_adder_v1_0": {"name": "generic",
+"ver": "2.0",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.8",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.949
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.957
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.964
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.973
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.981
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:00.989
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.032
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.041
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.047
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.055
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.062
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.069
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.076
+!MESSAGE XSCT Command: [::hsi::utils::opensw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.084
+!MESSAGE XSCT command with result: [::hsi::utils::opensw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.091
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf -sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss -app hello_world -processor microblaze_0 -os standalone -dir C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test/src], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.203
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf -sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss -app hello_world -processor microblaze_0 -os standalone -dir C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test/src], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.628
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.638
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.647
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.657
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.672
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.683
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.720
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:19:01.729
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:01.838
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.core.CommandLauncher.printCommandLine(CommandLauncher.java:287)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:250)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:01.937
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:01.949
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:02.039
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:02.049
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:02.114
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:02.124
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:02.455
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:02.464
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:02.544
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:02.554
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:02.589
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:03.224
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:03.293
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:03.304
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:03.343
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:03.521
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:03.530
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:03.589
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:05.399
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:05.407
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:05.414
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:07.307
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:07.318
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:07.356
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:08.162
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:57)
+
+!ENTRY org.eclipse.cdt.core 4 0 2020-06-30 20:19:08.191
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:98)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:193)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:259)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-06-30 20:19:09.063
+!MESSAGE Indexed 'sum_test' (2 sources, 46 headers) in 0.739 sec: 1,380 declarations; 2,320 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-06-30 20:19:09.842
+!MESSAGE Indexed 'sum_test_bsp' (41 sources, 80 headers) in 0.727 sec: 1,512 declarations; 5,613 references; 44 unresolved inclusions; 5 syntax errors; 35 unresolved names (0.49%)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:20:05.235
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:20:05.245
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:20:05.251
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:20:05.260
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:20:05.267
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:20:05.277
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:20:05.306
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:20:05.315
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:20:05.322
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:20:05.332
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/design_101_wrapper_hw_platform_0/system.hdf C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, {"axi_bram_ctrl_0": {"name": "bram",
+"ver": "4.2",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.2",
+},
+"myip_simple_adder_v1_0": {"name": "generic",
+"ver": "2.0",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.8",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:20:05.340
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-06-30 20:20:05.348
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/demo/simple_adder_microblaze_interface/simple_adder_microblaze_interface/simple_adder_microblaze_interface.sdk/sum_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-06-30 20:22:03.734
+!MESSAGE Executed Webtalk command
